@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "Job",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "experience_req": {
+      "type": "string"
+    },
+    "due_dt": {
+      "type": "date"
+    },
+    "company": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "company_id": {
+      "type": "uid"
+    },
+    "job_type": {
+      "type": "enumeration",
+      "enum": [
+        "Full-Time",
+        "Part-Time",
+        "Contract",
+        "Internship"
+      ]
+    },
+    "education": {
+      "type": "enumeration",
+      "enum": [
+        "High-School",
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    }
+  }
+}

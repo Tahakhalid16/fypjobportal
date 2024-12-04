@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_applications",
+  "info": {
+    "singularName": "user-application",
+    "pluralName": "user-applications",
+    "displayName": "user_application",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "app_status": {
+      "type": "string"
+    },
+    "cv_file": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cover_letter": {
+      "type": "string"
+    },
+    "any_experience": {
+      "type": "string"
+    },
+    "app_dt": {
+      "type": "date"
+    },
+    "job_title": {
+      "type": "text"
+    },
+    "job_id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    }
+  }
+}
